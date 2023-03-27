@@ -1,6 +1,13 @@
 # Personal account
 Host github.com
    HostName github.com
-   User [ADD_USER_NAME_HERE]
-   IdentityFile ~/.ssh/[ADD_SSH_PRIV_KEY_HERE]
+   User [ADD_USER_NAME]
+   IdentityFile ~/.ssh/[ADD_SSH_PRIV_KEY_FILE]
    IdentitiesOnly yes
+
+# Other account
+<!-- Host github.com
+   HostName github.com
+   User [ADD_USER_NAME]
+   IdentityFile ~/.ssh/[ADD_SSH_PRIV_KEY_FILE]
+   IdentitiesOnly yes -->

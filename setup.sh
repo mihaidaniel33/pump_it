@@ -1,4 +1,4 @@
-#! /bin/bash
+#!/bin/bash
 
 dont_forget() {
 	echo """
@@ -9,6 +9,7 @@ dont_forget() {
 		Don't forget:
 	  	- Install Xcode
 		- Install Docker (Rancher desktop)
+		- Run system settings
 		- Set up .ssh/config file
 
 #################################################
@@ -50,6 +51,7 @@ add_zsh () {
 
 add_other_packages () {
 	brew install --cask visual-studio-code
+	brew install --cask google-cloud-sdk
 
 	brew install \
 		jq yq \
